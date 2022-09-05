@@ -1,0 +1,25 @@
+REQUERIMIENTOS FUNCIONALES
+- El software debe contar con 4 ventanas una donde se toma el pedido, otra dónde se visualizan los pedidos en preparación, una con el panel de administración y otra con la lista completa de pedidos completa.
+- El software debe contar con un panel de autenticación para el administrador, dónde el usuario debe contener mínimo 8 caracteres combinando letras y números y la contraseña debe contener mínimo 8 caracteres con mínimo un número, debe contener letras mayúsculas y minúsculas y mínimo un carácter especial (*#. etc)
+- El software debe permitir al administrador agregar, modificar, consultar y eliminar los productos.
+- El administrador podrá editar las características de cada producto, tales como nombre, imagen, precio y descripción.
+- El administrador tendrá acceso al apartado de balance, dónde podrá consultar o exportar un archivo con el balance por día, por semana o por mes.
+- El software debe contar con un balance detallado de las ventas por día, semana o mes, dónde se mostrará la cantidad de ventas totales, cantidad de ventas por producto, producto mas vendido, producto menos vendido, total en pesos vendido, total en pesos por producto vendido, total en pesos del producto mas vendido, total en pesos del producto menos vendido y un gráfico circular dónde represente el porcentaje de ingresos por producto.
+- El software debe contar con un apartado donde se muestren los productos solicitados organizandolos según la hora de pedido.
+- El software debe mostrar la imagen del producto, la cantidad, la descripción del producto, el número en lista según el orden, tiempo de entrega y un color que represente el estado del pedido según el tiempo de entrega.
+- En la vista de pedidos a preparar solo se deben mostrar los pedidos que están en preparación, una vez preparados y entregados se deben eliminar de la lista y se muestran los siguientes a preparar.
+- El software debe permitir al usuario ingresar, editar, eliminar o confirmar entrega de un pedido.
+- El software debe permitir al usuario elegir un producto por la imagen o buscándolo por el nombre.
+- El software debe contar con un apartado de adiciones (Ingredientes adicionales a los que lleva el producto) y se deben asignar al pedido principal para ser especificados en la pantalla de pedidos en preparación.
+REQUERIMIENTOS NO FUNCIONALES
+- El tiempo de carga no tiene que superar los 2 segundos de respuesta tanto para la aplicación móvil y como la aplicación web
+- El sistema presentara una interfaz de usuario sencilla para que sea de fácil manejo para los usuarios del sistemas
+- El sistema deberá estar alojado en un servidor eficiente que pueda manejar gran concurrencia de pedidos en ciertos periodos de tiempo
+- El sistema deberá tener un archivo que contenga todas las transacciones realizadas en sistema, tanto por el administrador como por el usuario que realiza los pedidos
+- El acceso a los datos debe ser de forma segura, evitando intrusiones, garantizando que únicamente el administrador pueda acceder a la configuración del sistema y a los archivos de balance que genera la aplicación.
+- El sistema debe disponer de una buena documentación que permita realizar operaciones de mantenimiento con el menor esfuerzo posible.
+- El sistema deberá ser fácilmente escalable, con el fin de poder hacer crecer la aplicación al incorporar a futuro nuevos funcionalidades.
+- La interfaz debe estar complementada con un buen sistema de ayuda que guíe paso a paso por todas las opciones con una breve explicación al usuario, solo al ingresar por primera vez ( aveces los usuarios pueden contar con poca experiencia en el uso de aplicaciones informáticas) 
+- El sistema se debe desarrollar para funcionar en diferentes plataformas tales como Móviles, Computadores, Televisores, Tabletas.
+- La aplicación debe funcionar en Android, IOS y windows Phone.
+- La aplicación debe adaptarse a diferentes resoluciones de pantalla.
